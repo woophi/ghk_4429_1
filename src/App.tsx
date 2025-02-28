@@ -74,7 +74,7 @@ export const App = () => {
             block
             size={40}
             view="primary"
-            onClick={() => submit(true)}
+            onClick={() => submit()}
             loading={loading}
             leftAddons={<CDNIcon name="glyph_plus-circle_s" />}
           >
@@ -117,7 +117,7 @@ export const App = () => {
           block
           view="secondary"
           href="https://alfa-mobile.alfabank.ru/mobile/goto/invest-details"
-          onClick={() => submit()}
+          onClick={() => submit(false)}
         >
           Неинтересно
         </Button>
